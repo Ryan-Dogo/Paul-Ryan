@@ -1,0 +1,88 @@
+body{
+  text-align:center;
+}
+#text{
+  color: yellow;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul{
+  list-style:none;
+  background:black;
+  top:0px;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:100%;
+  cursor:pointer;
+  position:fixed;
+  z-index:1;
+}
+.links{
+color: red;
+display: inline;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 25px;
+}
+.links:hover{
+font-size: 30px;
+background-color: aqua;
+}
+.line{
+height: 6px;
+background-color: red;
+width: 70px;
+margin: 8px auto;
+}
+.welcome{
+  background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+  top:0;
+  position:absolute;
+  width:100%;
+  opacity:0.83;
+  display:table;
+}
+.parallax{
+  background-image: url(https://i.ytimg.com/vi/JW-KIbV9PRU/maxresdefault.jpg);
+  background-attachment: fixed;
+  background-attachment: center;
+}
+.profile{
+  width:200px;
+  margin-bottom:50px;
+  margin-top:100px;
+  border-radius:50%;
+  padding:5px;
+  border:10px solid black;
+}
+.profile:hover{
+  transform: scale(1.5)
+}
+#Inspire{
+  margin-left: 15px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 10px solid red;
+}
+#Inspire:hover{
+  transform: scale(0.7);
+}
+#Inspire1{
+  margin-left: 15px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 10px solid blue;
+}
+#Inspire1:hover{
+  transform: scale(0.7);
+}
+#Bio{
+  margin-top:500px;
+  padding-top:50px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.Contacts1 h3{
+  display: inline;
+}
